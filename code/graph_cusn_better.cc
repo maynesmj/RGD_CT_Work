@@ -2,6 +2,16 @@
 #include <iostream>
 #include <string>
 
+/*
+
+This files contains the latest results of the rho0 yields for each Q2 bin. This code uses the density and thickness to 
+plot the nuclear transparency vs Q2 plot with uncertainty
+
+*/
+
+
+
+
 
      double cxc4mean [6] = { 0.764032, 0.765215, 0.763842, 0.764708,0.762921, 0.761806};
      double cxc4con [6] =  {331.234 , 63.5916, 30.509, 12.8173, 9.40861, 2.29666};                 //1 bspot  vz -12 - 5
