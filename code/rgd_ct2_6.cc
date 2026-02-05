@@ -7,14 +7,29 @@
 //*  ╚═╝  ╚═╝╚═╝╚═╝      ╚═════╝          ╚═╝╚═╝ ╚═════╝
 //************************ Jefferson National Lab (2017) ***********
 //******************************************************************
-//* Example program for reading HIPO-4 Files..
-//* Reads the file created by writeFile program
-//*--
-//* Author: G.Gavalian
-//*
 
-// This version of hipo file reader will take 25,000 events and save highest energy electron, +/- pi, and mass of rho in root trees
+/*
 
+The latest version of the main analysis code
+This code takes a list file of locations to hipo files. An example of such list has been added to this branch.
+The code produces a root file containing several useful graphs and histograms
+
+input file is located at line: 863
+name of root file is located at line: 861
+
+Lines (868,  887 - 890 ) allow you to set which target specific cuts and sector of the drift chamber you wish to look at
+
+the loop per hipo file starts at line: 991 
+
+the loop per event starts at line: 1143
+
+lines ( 1448 - 1537) take the information for e, pip, & pim per event
+
+lines ( 1588 - 1961) link the detector banks and make calulations related to fiducal cuts
+
+lines ( 2516 - 2601 ) make all calculations related to rho0 and related invarient mass plots
+
+*/
 
 #include <cstdlib>
 #include <iostream>
