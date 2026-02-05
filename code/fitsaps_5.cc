@@ -7,14 +7,14 @@
 //*  ╚═╝  ╚═╝╚═╝╚═╝      ╚═════╝          ╚═╝╚═╝ ╚═════╝
 //************************ Jefferson National Lab (2017) ***********
 //******************************************************************
-//* Example program for reading HIPO-4 Files..
-//* Reads the file created by writeFile program
-//*--
-//* Author: G.Gavalian
-//*
 
-// This version of hipo file reader will take 25,000 events and save highest energy electron, +/- pi, and mass of rho in root trees
 
+/*
+
+This code applies a Briet-Winger + 3D poly fit to the invarent mass plots of the root file. The code will produce a separet root file of the invarient mass plots with the 
+fits. This is what I used for presentations. It will also print out the values of the yield based on each fit.
+
+*/
 
 #include <cstdlib>
 #include <iostream>
