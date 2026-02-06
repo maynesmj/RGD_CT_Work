@@ -2,8 +2,9 @@
 This repository contains the analysis code and related data files developed for the Color Transparency experiment which ran in fall 2023 by the CLAS12 Collaboration of Jefferson Labs
 
 
-The code file contains all analysis code I used
-the main series of analysis data is the rgd_ct*.cc code. They take list files at the input and produce lengthy root files of histograms and graphs
+The code file contains all analysis code I used.
+
+The main series of analysis data is the rgd_ct*.cc code. They take list files at the input and produce lengthy root files of histograms and graphs
 The latest verison I used is rgd_ct2_6.cc and this code has comments added to help with navigation. These codes are ment to be run on ifarm. The codes with tree in the name produce root tree files.
 The latest code I produced are the ctest and they contain some of the fiducial graphs. The cleaest data file is the one call bcolloquial, as these were the files I used to produce the graphs for my colloquial talk in August of 2025.
 
