@@ -8,6 +8,8 @@ The main series of analysis data is the rgd_ct*.cc code. They take list files at
 The latest verison I used is rgd_ct2_6.cc and this code has comments added to help with navigation. These codes are ment to be run on ifarm. The codes with tree in the name produce root tree files.
 The latest code I produced are the ctest and they contain some of the fiducial graphs. The cleaest data file is the one call bcolloquial, as these were the files I used to produce the graphs for my colloquial talk in August of 2025.
 
+The input files for the rgd_ct2_*.cc code can be found in the list folder. These are list files with the addresses to the hipo files 
+
 the code fitsaps_5.cc is the latest version of the fitting code I would use to apply the Briet-Winger fits and get the Rho0 yield of each Q2 bin. This code takes the root files produced by rgd_ct*.cc and produces a root file of the fitted graphs.
 the latest version of the data is Invarient_mass_plots_for_Mathieu.cc
 
